@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import LandingPage from './Component/LandingPage';
+import ProfilePage from './Component/ProfilePage';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import Post from './Pages/Post';
+import Gallery from './Pages/Gallery';
+import Todo from './Pages/Todo';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <BrowserRouter>
+   <Routes>
+    <Route path='/' element={<LandingPage/>}/>
+    <Route path='/profilePage/:id' element={<ProfilePage/>}/>
+    <Route path='/Post' element={<Post/>}/>
+    <Route path='/gallery' element={<Gallery/>}/>
+    <Route path='/todo' element={<Todo/>}/>
+    
+   </Routes>
+   </BrowserRouter>
   );
 }
 

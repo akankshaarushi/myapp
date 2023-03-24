@@ -1,0 +1,40 @@
+.nav_menu{
+              background-color: rgb(93, 93, 199);
+              width: 250px;
+              height: 45rem;
+              display: flex;
+              justify-content: left;
+              align-items: center;
+              border-radius: 40px;
+}
+
+.list_section{
+              padding-bottom: 25px;
+              border-bottom: 1px solid rgb(161, 159, 159);
+              padding-top: 10px;
+
+}
+.list_sections{
+              padding-bottom: 25px;
+              padding-top: 10px;
+
+}
+
+.menu_bar{
+              margin-left: 1.5rem;
+              font-size: 18px;
+              background: none;
+              text-decoration: none;
+              color:rgb(211, 203, 203);
+              cursor: pointer;
+              font-weight: 500;
+}
+.menu_bar:hover{
+              color: white;
+}
+
+.nav_section{
+              list-style: none;
+              width: 90%;
+              padding-left: 20px;
+}

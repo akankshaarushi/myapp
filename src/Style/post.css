@@ -1,0 +1,39 @@
+.sectional_divison{
+              display: flex;
+}
+
+.profile_picture_name{
+             display: flex;
+}
+
+.sections2{
+     display: flex;
+     height: 80px;
+     border-bottom: 1px solid gray;
+     padding-left: 8px;
+}
+.header_profile_status{
+              position: relative;
+              top: 3rem;
+              padding-left: 60px;
+}
+
+.profile_header_section{
+              display: flex;
+              padding-left: 48rem;
+              position: relative;
+              top: 50px;
+}
+
+.post_sections{
+              display: flex;
+}
+
+.comming_soon{
+              position: relative;
+              top: 17rem;
+              right: 40rem;
+              font-size: 3em;
+              color: rgb(221, 212, 212);
+          }
+

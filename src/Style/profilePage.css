@@ -1,0 +1,134 @@
+*{
+              padding: 0;
+              margin: 0;
+              box-sizing: border-box;
+}
+
+.profile_container{
+              display: flex;
+              width: 90vw;
+              height: fit-content;
+              margin-top: 4rem;
+              margin-left: 6rem;
+}
+.image_pic{
+              width: 14rem;
+              height: 14rem;
+              border-radius: 50%;
+              margin-left: 5rem;
+}
+.head_sec{
+              color: gray;
+              padding-top: 10px;
+             font-weight: 400;
+             text-align: center;           
+}
+
+.head_section{
+              color: gray;
+              font-weight: 400;
+              padding-top: 30px; 
+              padding-left: 30px;       
+}
+
+.section1{
+   display: flex;
+   flex: 1;
+   flex-direction: column;
+}
+.section2{
+        display: flex;
+        flex: 2; 
+        background-color: #fff;  
+        flex-direction: column;
+        padding-left: 10px; 
+        border-right: 1px solid grey;
+        border-top: 1px solid gray;  
+}
+.section3{
+        display: flex;
+        flex-direction: column;
+        flex: 3;  
+        border-top: 1px solid gray;  
+}
+.profile_information{
+              padding-top: 21px;
+              padding-left: 35px;
+              border-bottom: 1px solid gray;
+              width: 90%;
+}
+.profile_details{
+              display: flex;
+              justify-content: left;
+              font-size: 20px;
+              color: gray;  
+              padding-bottom: 20px;      
+}
+
+.company_info{
+              color: gray;
+              display: flex;
+              justify-content: left;
+              padding: 6px;
+              font-size: 20px;
+              padding-left: 35px;
+
+}
+
+.profile_address{
+              padding-top: 3rem;
+              padding-left: 5rem;
+}
+
+.address_content{
+              display: flex;
+              padding-bottom: 10px;
+              font-size: 20px;
+              color: gray;   
+}
+
+.address_user{
+        padding-left: 10px;
+}
+
+.profile_users{
+        padding-left: 10px;
+}
+
+.company_name{
+        padding-left: 10px;
+}
+
+.geo_location{
+        padding-left: 3rem;
+        padding-top: 2rem;
+}
+.map_location{
+        width: 32rem;
+        height: 25rem;
+}
+
+.profile_pic_name{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 60px;
+    left: 44px;
+}
+.pic_div{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+}
+
+.profile_head_div{
+        display: flex;
+        padding-left: 18rem;
+}
+              
+.profile_head_div>h3{
+        padding-left: 7px;
+}
+.header_status{
+        padding-left: 10rem;
+}
