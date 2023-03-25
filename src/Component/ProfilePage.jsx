@@ -8,6 +8,7 @@ import { Transfer } from './Context';
 const ProfilePage = () => {
 
   const TransferData = Transfer()
+  
 
            const param = useParams();  
            console.log(param)
@@ -18,8 +19,11 @@ const ProfilePage = () => {
              const variables = TransferData.content.filter((answer)=>{
               return answer.id==param.id
              })
-             setUserData(variables[0])
-           }, [])
+             setUserData({...variables[0]})
+             console.log( "Akanksha",TransferData);
+
+
+           }, [userData])
            
 
   return (
@@ -64,7 +68,7 @@ const ProfilePage = () => {
               <h2 className='head_sec'>Company</h2>
               <div className="company_info">
               <label>Name:</label>
-              <h4 className='company_name'>{userData.name}</h4>
+              {/* <h4 className='company_name'>{userData.company.name}</h4> */}
               </div>
               <div className="company_info">
               <label>catchPhrase:</label>
