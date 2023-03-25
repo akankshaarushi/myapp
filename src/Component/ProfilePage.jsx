@@ -68,7 +68,7 @@ const ProfilePage = () => {
               </div>
               <div className="company_info">
               <label>catchPhrase:</label>
-              <h4 className='company_name'>{userData.phone}</h4>
+              <h4 className='company_name'>{userData.name}</h4>
 
               </div>
               <div className="company_info">
@@ -87,7 +87,7 @@ const ProfilePage = () => {
             </div>
             <div className="address_content">
               <label>suite:</label>
-              <h4 className='address_user'>{userData.phone}</h4>
+              <h4 className='address_user'>{userData.website}</h4>
             </div>
             <div className="address_content">
               <label>city:</label>
