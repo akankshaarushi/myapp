@@ -64,16 +64,16 @@ const ProfilePage = () => {
               <h2 className='head_sec'>Company</h2>
               <div className="company_info">
               <label>Name:</label>
-              <h4 className='company_name'>Romaguera-Crona</h4>
+              <h4 className='company_name'>{userData.name}</h4>
               </div>
               <div className="company_info">
               <label>catchPhrase:</label>
-              <h4 className='company_name'>Multi-layered client-server neural-net</h4>
+              <h4 className='company_name'>{userData.phone}</h4>
 
               </div>
               <div className="company_info">
               <label>bs:</label>
-              <h4 className='company_name'>harness real-time e-markets</h4>
+              <h4 className='company_name'>{userData.website}</h4>
               </div> 
             </div>
        </div>
@@ -83,19 +83,19 @@ const ProfilePage = () => {
             <div className="profile_address">
             <div className="address_content">
               <label>street:</label>
-              <h4 className='address_user'>Kulas Light</h4>
+              <h4 className='address_user'>{userData.name}</h4>
             </div>
             <div className="address_content">
               <label>suite:</label>
-              <h4 className='address_user'>Apt. 556</h4>
+              <h4 className='address_user'>{userData.phone}</h4>
             </div>
             <div className="address_content">
               <label>city:</label>
-              <h4 className='address_user'>Gwenborough</h4>
+              <h4 className='address_user'>{userData.name}</h4>
             </div>
             <div className="address_content">
               <label>zipcode:</label>
-              <h4 className='address_user'>92998-3874</h4>
+              <h4 className='address_user'>{userData.phone}</h4>
             </div>
            </div>
             <div className="geo_location">
